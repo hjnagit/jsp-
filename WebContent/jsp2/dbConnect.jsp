@@ -28,7 +28,7 @@
 	// 서버 시간 추가하기?servertimeZone=Asia/Seoul; => 서버시간 오류가 생긴다면 추가한다
 	DriverManager.getConnection("jdbc:mysql://localhost:3306/jspdb?servertimeZone=Asia/Seoul;", "root", "1234");
 	System.out.println("디비 연결 성공");
-	// 성공하면 디비에 들어와 있는 상태이다.
+	// 성공하면 디비에 들어와 있는 상태이다. 
 	
 	// CRUD
 	
