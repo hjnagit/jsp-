@@ -23,7 +23,7 @@
 	//코드는 위에서 아래로 실행하니까 위의 코드가 성공하면 아래의 내용이 출력될 것이다.
 	System.out.println("드라이버 로드 성공");
 	
-	// 2. 드라이버를 사용해서 DB접속
+	// 2. 드라이버를 사용해서 DB접속 
 	// mysql에서 디비 하나 jsp수업용을 생성해서 연결했다 jspdb
 	// 서버 시간 추가하기?servertimeZone=Asia/Seoul; => 서버시간 오류가 생긴다면 추가한다
 	DriverManager.getConnection("jdbc:mysql://localhost:3306/jspdb?servertimeZone=Asia/Seoul;", "root", "1234");
