@@ -10,5 +10,14 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
-
+  <servlet>
+  	<servlet-name>ItwillServlet</servlet-name>
+  	<servlet-class>com.itwillbs.servlet.ItwillServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ItwillServlet</servlet-name>
+  	<url-pattern>/busan.com</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
