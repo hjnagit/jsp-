@@ -31,7 +31,7 @@ ${param.num1 > 0 }, ${param.num2 > 0 }<br>
 삼항연산 사용 :  ${((param.num1 gt 0) && (param.num2 gt 0)) ? "모두 양수" : "아니다" }
 
 
-
+ 
 
 
 
