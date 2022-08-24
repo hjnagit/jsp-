@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+//http://localhost:8088/JSP6/busan.com
+
 public class ItwillServlet extends HttpServlet{
 
 	@Override
