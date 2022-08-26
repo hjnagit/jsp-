@@ -30,7 +30,7 @@ cnt 값 el : ${requestScope.cnt+500 }<br>
 cnt값 request : ${requestScope.cnt }<br>
 cnt값 session : ${sessionScope.cnt }<br>
 
-???역역의 cnt : ${cnt }<br>
+???영역의 cnt : ${cnt }<br>
 
 </body>
 </html>
